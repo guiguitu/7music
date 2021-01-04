@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七人音乐网</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 顶部 -->
+        <div class="top">
+            <div class="top-tp">
+                <div id="topa">
+                    <img id="logo" src="img/logo.png" alt="">
+                    <ul>
+                        <li><a href="#"> 发现音乐</a></li>
+                        <li><a href="my music.html" target="_blank"> 我的音乐</a></li>
+                        <li><a href="friend.html" target="_blank"> 朋友</a></li>
+                        <li><a href="mall.html" target="_blank"> 商城</a></li>
+                        <li><a href="Musician.html" target="_blank"> 音乐人</a></li>
+                        <li><a href="download apps.html" target="_blank"> 下载客户端</a></li>
+                    </ul>
+                    <input type="text" placeholder="音乐视频/电台/用户" class="sous">
+                    <input type="button" value="创作者中心" id="button">
+                    <a href="Signin.html" target="_blank" class="denglu">登陆</a>
+                </div>
+            </div>
+            <div class="top-fot">
+                <ul>
+                    <li style=" background-color: rgba(94, 93, 93, 0.301);">推荐</li>
+                    <li>排行榜</li>
+                    <li>歌单</li>
+                    <li>主播电台</li>
+                    <li>歌手</li>
+                    <li>新碟上架</li>
+                </ul>
+            </div>
+        </div>
+        <div class="hear">
+            <div class="hear-jz">
+                <div class="hear-left">
+                    <!-- 轮播图 -->
+                    <img id="img" src="img/01.jpg" alt="">
+                </div>
+                <div class="hear-righf">
+                    <a href="download apps.html"><img src="img/download.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- 内容 -->
+        <div class="main">
+
+            <!-- 内容左区域 -->
+            <div class="main-left">
+                <div class="main-l1">
+                    <div class="main-l1-top">
+                        <span>热门推荐</span>
+                        <span>华语</span>
+                        <span>流行</span>
+                        <span>摇滚</span>
+                        <span>民谣</span>
+                        <span>电子</span>
+                        <span style="color: rgb(235, 68, 68);float: right;line-height: 60px;padding-right: 20px;">更多</span>
+                    </div>
+
+                    <!-- 歌曲的创建 图片的布置-->
+                    <div class="main-l1-fot">
+                        <audio id="music1" src="i/01.mp3"></audio>
+                        <audio id="music2" src="i/02.mp3"></audio>
+                        <audio id="music3" src="i/03.mp3"></audio>
+                        <audio id="music4" src="i/04.mp3"></audio>
+                        <audio id="music5" src="i/05.mp3"></audio>
+                        <audio id="music6" src="i/06.mp3"></audio>
+                        <audio id="music7" src="i/07.mp3"></audio>
+                        <audio id="music8" src="i/08.mp3"></audio>
+                        <audio id="music9" src="i/09.mp3"></audio>
+                        <audio id="music10" src="i/10.mp3"></audio>
+
+                        <ul>
+                            <li><img src="img/rmtp (2).jpg" alt="" onClick="play5()"><a href="#1" onClick="play5()">夜间咖啡|西餐馆|傍晚的乐器演奏家</a></li>
+                            <li><img src="img/rmtp (5).jpg" onClick="play1()"><a href="#4" onClick="play1()">所以你并没有坚定地选择过我</a></li>
+                            <li><img src="img/rmtp (3).jpg" alt="" onClick="play9()"><a href="#2" onClick="play9()">收藏85后的青春和快乐</a></li>
+                            <li><img src="img/rmtp (4).jpg" alt="" onClick="play3()"><a href="#3" onClick="play3()">[Free boombap beats] 免 费 伴 奏</a></li>
+                        </ul>
+                        <ul>
+                            <li><img src="img/rmtp (6).jpg" alt="" onClick="play9()"><a href="#5" onClick="play9()">有些心动，一开始便覆水难收</a></li>
+                            <li><img src="img/rmtp (7).jpg" alt="" onClick="play5()"><a href="#6" onClick="play5()"> 演员请就位，导演请开撕-VOL.70</a></li>
+                            <li><img src="img/rmtp (8).jpg" alt="" onClick="play7()"><a href="#7" onClick="play7()"> 我终于不再爱你了</a></li>
+                            <li><img src="img/rmtp (1).jpg" alt="" onClick="play7()"><a href="#0" onClick="play7()">又見</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-l1-top">
+                        <span>新碟上架</span>
+                        <span style="color: rgb(235, 68, 68);float: right;line-height: 60px;padding-right: 20px;">更多</span>
+                        <ul class="xin">
+                            <li><img src="img/xdsj (1).jpg" alt="" onClick="play7()"><a href="#11" onClick="play7()">未·LIVE张杰</a></li>
+                            <li><img src="img/xdsj (2).jpg" alt="" onClick="play9()"><a href="#12" onClick="play9()">RE-CODECNBLUE</a></li>
+                            <li><img src="img/xdsj (3).jpg" alt="" onClick="play9()"><a href="#13" onClick="play9()">不完美人生指南陈绮贞/鬼卞</a></li>
+                            <li><img src="img/xdsj (4).jpg" alt="" onClick="play7()"><a href="#14" onClick="play7()">如果当时2020许嵩/朱婷婷</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 内容右区域 -->
+            <div class="main-right">
+                <div class="main-right-top">
+                    <p>登录七人音乐网，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+                    <a href="Signin.html"> <input type="button" value="用户登录"></a>
+                </div>
+                <div class="main-right-footer">
+                    <div class="span">
+                        <span>入驻歌手</span>
+                    </div>
+                    <ul>
+                        <li><img src="img/sytpd (1).jpg" onClick="play7()" alt="">
+                            <h5>Fine乐团</h5>
+                            <p>独立音乐人</p>
+                        </li>
+                        <li><img src="img/sytpd (2).jpg" onClick="play2()" alt="">
+                            <h5>张惠妹aMEI</h5>
+                            <p>台湾歌手</p>
+                        </li>
+                        <li><img src="img/sytpd (3).jpg" onClick="play7()" alt="">
+                            <h5>音乐人赵雷</h5>
+                            <p>民谣歌手</p>
+                        </li>
+
+                    </ul>
+                    <input type="button" value="申请成为七人音乐人"></input>
+                    <div class="span">
+                        <span>热门主播</span>
+                    </div>
+                    <ul id="ull">
+                        <li><img src="img/sytpd (1).jpg" onClick="play1()" alt="">
+                            <h5>Fine乐团</h5>
+                            <p>独立音乐人</p>
+                        </li>
+                        <li><img src="img/sytpd (2).jpg" onClick="play5()" alt="">
+                            <h5>张惠妹aMEI</h5>
+                            <p>台湾歌手</p>
+                        </li>
+                        <li><img src="img/sytpd (3).jpg" onClick="play7()" alt="">
+                            <h5>音乐人赵雷</h5>
+                            <p>民谣歌手</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer">
+
+            <div class="ull">
+                <ul>
+                    <li> 服务条款</li>
+                    <li>隐私政策</li>
+                    <li>儿童隐私政策</li>
+                    <li>版权投诉指引</li>
+                    <li>意见反馈</li>
+                </ul>
+                <ul>
+                    <li>海南软件职业技术学院版权所有</li>
+                    <li>七人音乐网站团队运营</li>
+                </ul>
+                <ul>
+                    <li>违法和不良信息举办电话：0123645979</li>
+                    <li>举报邮箱：abcdef@123.com</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

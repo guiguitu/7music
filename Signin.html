@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/Signin.css">
+  
+</head>
+
+<body>
+    <div id="app">
+        <div class="top">
+            <h1 style="color: rgb(231, 231, 231);text-align: center;line-height: 100px;">登陆界面</h1>
+        </div>
+        <form action="index.html" autocomplete="off">
+            <!-- QQ -->
+            <table class="content show">
+                <tr>
+                    <td>账号：</td>
+                    <td><input type="text" id="text" placeholder="请输入您的账号" required="required" pattern="[0-9]{6,13}" title="账号 6~13个数字"></td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" id="password" placeholder="请输入您的密码" required="required" pattern="[A-z,0-9]{8,16}" title="密码8~16个任意字符数"></td>
+                </tr>
+            </table>
+            <!-- 微信 -->
+            <table class="content">
+                <tr>
+                    <td>账号：</td>
+                    <td><input type="text" id="text" placeholder="请输入您的微信账号" required="required" pattern="[0-9]{6,13}" title="账号 6~13个数字"></td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" id="password" placeholder="请输入您的微信密码" required="required" pattern="[A-z,0-9]{8,16}" title="密码8~16个任意字符数"></td>
+                </tr>
+            </table>
+            <!-- 手机 -->
+            <table class="content ">
+                <tr>
+                    <td>手机：</td>
+                    <td><input type="text" id="text" placeholder="请输入您的手机号" required="required" pattern="[0-9]{11}" title="账号11个数字"></td>
+                </tr>
+                <tr>
+                    <td>验证码：</td>
+                    <td><input type="password" id="password" placeholder="请输入您的验证码" required="required" pattern="[0-9]{6}" title="密码6个任意字符数" style="width: 130px;"></td>
+                </tr>
+            </table>
+            <input id="submit" name="submit" type="submit" value="登陆">
+            <a href="registered.html" id="zCe">注册</a>
+            <ul>
+                <li> <img src="img/qq.png" class="btn active" alt=""></li>
+                <li> <img src="img/weixin.png" class="btn" alt=""></li>
+                <li> <img src="img/shouji.png" class="btn" alt=""></li>
+            </ul>
+        </form>
+
+    </div>
+    <script src="js/Signin.js"></script>
+   
+</body>
+
+</html>
