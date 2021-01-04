@@ -1,0 +1,98 @@
+#app {
+    width: 380px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    width: 380px;
+    height: 100px;
+    background-color: rgb(221, 24, 24);
+}
+
+form {
+    width: 378px;
+    height: 220px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    outline: none;
+}
+
+table {
+    margin-left: 10px;
+    width: 330px;
+    height: 80px;
+    font-size: 17px;
+}
+
+table tr td:first-of-type {
+    text-align: center;
+}
+
+#text,
+#password {
+    width: 230px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px rgba(158, 158, 158, 0.61) solid;
+}
+
+#submit {
+    margin: 10px 120px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 0px;
+    background-color: rgba(211, 48, 19, 0.945);
+    color: rgb(243, 244, 245);
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: rgb(255, 255, 255);
+}
+
+#zCe {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 12px;
+    color: rgba(116, 114, 114, 0.877);
+}
+
+#zCe:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 10px auto;
+    display: none;
+}
+
+.content.show {
+    display: block;
+}
+
+ul {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+}

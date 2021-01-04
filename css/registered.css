@@ -1,0 +1,79 @@
+#app {
+    width: 380px;
+    height: 280px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    width: 380px;
+    height: 100px;
+    background-color: rgb(221, 24, 24);
+}
+
+form {
+    position: relative;
+    width: 378px;
+    height: 180px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+
+input {
+    outline: none;
+}
+
+table {
+    margin-left: 20px;
+    width: 330px;
+    height: 80px;
+    font-size: 17px;
+}
+
+table tr {
+    height: 50px;
+}
+
+table tr td:first-of-type {
+    text-align: center;
+}
+
+#text,
+#password {
+    width: 230px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px rgba(158, 158, 158, 0.61) solid;
+}
+
+#submit {
+    margin-left: -50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 0px;
+    background-color: rgba(211, 48, 19, 0.945);
+    color: rgb(243, 244, 245);
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(124, 122, 122);
+    position: absolute;
+    top: 120px;
+    left: 230px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

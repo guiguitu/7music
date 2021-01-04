@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 248, 250);
+}
+
+input {
+    outline: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#app {
+    width: 100%;
+    margin: auto;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: red;
+    z-index: 99;
+}
+
+#topa {
+    position: relative;
+    width: 1500px;
+    height: 80px;
+    margin: auto;
+}
+
+.top a {
+    text-decoration: none;
+}
+
+.top-tp {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(39, 39, 39, 0.973);
+}
+
+#logo {
+    position: absolute;
+    top: 12px;
+    left: 200px;
+    width: 170px;
+    height: 45px;
+}
+
+.top-tp ul {
+    position: absolute;
+    left: 400px;
+    width: 582px;
+}
+
+.top-tp ul li {
+    width: 80px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+
+.top-tp ul li:nth-of-type(2) {
+    background-color: rgb(26, 25, 25);
+}
+
+.top-tp ul li:nth-of-type(2) a {
+    color: rgb(255, 255, 255);
+}
+
+.top-tp ul li:hover {
+    background-color: rgb(26, 25, 25);
+}
+
+.top-tp ul li:hover a {
+    color: rgb(255, 255, 255);
+}
+
+.top-tp ul li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.699);
+    line-height: 75px;
+}
+
+.top-tp .sous {
+    position: absolute;
+    left: 900px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 150px;
+    height: 35px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 0;
+}
+
+#button {
+    position: absolute;
+    left: 1100px;
+    top: 22px;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.76);
+    background-color: rgb(39, 39, 39);
+    border: 1px rgb(88, 88, 88) solid;
+    cursor: pointer;
+}
+
+#button:hover {
+    border: 1px solid #fff;
+}
+
+.denglu {
+    position: absolute;
+    top: 26px;
+    left: 1230px;
+    color: rgb(109, 107, 107);
+}
+
+.denglu:hover {
+    color: rgb(145, 141, 141);
+}
+
+#main {
+    margin: auto;
+    width: 900px;
+    height: 1080px;
+    background-color: #fff;
+    border: rgba(143, 141, 141, 0.267) 1px solid;
+    z-index: 1;
+}
+
+.main-left {
+    float: left;
+    position: fixed;
+    top: 80px;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(247, 247, 247, 0.226);
+}
+
+.main-left ul {
+    position: fixed;
+    top: 50px;
+    width: 250px;
+}
+
+.main-left ul li {
+    height: 30px;
+    padding-left: 30px;
+}
+
+.main-left ul li p {
+    cursor: pointer;
+}
+
+.main-left ul li:nth-of-type(3) {
+    height: 55px;
+    padding-top: 10px;
+    background-color: rgba(235, 235, 235, 0.548);
+}
+
+.main-left ul li button {
+    float: right;
+    margin-top: -22px;
+    width: 50px;
+    height: 25px;
+    border-radius: 3px;
+    color: rgba(255, 0, 0, 0.603);
+    margin-right: 20px;
+    border: rgba(173, 169, 169, 0.644) 1px solid;
+    background-color: rgb(255, 254, 254);
+    outline: none;
+    cursor: pointer;
+}
+
+.main-left ul li img {
+    float: left;
+    margin-right: 10px;
+    width: 20%;
+}
+
+.main-left ul li p:nth-child(2) {
+    font-size: 14px;
+    color: rgba(49, 48, 48, 0.877);
+}
+
+.main-left ul li p:nth-child(3) {
+    font-size: 10px;
+    margin-top: 5px;
+    color: rgb(134, 133, 133);
+}
+
+.main-right {
+    position: relative;
+    top: 80px;
+    float: right;
+    width: 650px;
+    height: 1000px;
+    border-left: rgba(143, 141, 141, 0.267) 1px solid;
+}
+
+.main-right-top {
+    margin: 30px;
+    width: 600px;
+    height: 200px;
+}
+
+.main-right-top img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.main-right-top ul {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.main-right-top ul li {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-right-top ul li:nth-of-type(2) {
+    padding-left: 50px;
+    color: rgb(172, 171, 171);
+    font-size: 12px;
+}
+
+.main-right-top ul li img {
+    margin-right: 10px;
+    width: 32px;
+    height: 30px;
+}
+
+.main-right-top ul li input {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(241, 241, 241, 0.555);
+    border: rgb(194, 189, 189) 1px solid;
+    cursor: pointer;
+}
+
+.main-right-top ul li input:first-of-type {
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    border: rgb(194, 189, 189) 1px solid;
+    background-color: rgba(37, 92, 192, 0.986);
+}
+
+.main-right-footer {
+    width: 650px;
+    height: 520px;
+    border-bottom: rgb(194, 25, 25) 2px solid;
+}
+
+.main-right-footer p {
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-right-footer table {
+    width: 650px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(75, 74, 74);
+    border-bottom: 1px solid rgb(199, 199, 199);
+    border-top: 2px solid rgba(199, 12, 12, 0.753);
+    cursor: pointer;
+}
+
+.main-right-footer table tr:first-of-type td:first-of-type {
+    border-left: none;
+}
+
+.main-right-footer table tr td:first-of-type {
+    width: 220px;
+}
+
+.main-right-footer table tr td:nth-of-type(2) {
+    width: 80px;
+    font-size: 10px;
+}
+
+.main-right-footer table tr td:nth-of-type(3) {
+    width: 100px;
+}
+
+.main-right-footer table tr td {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.main-right-footer table tr:first-of-type td {
+    font-size: 15px;
+    border-left: 1px rgba(214, 210, 210, 0.774) solid;
+}
+
+.as {
+    background-color: rgba(247, 244, 244, 0.664);
+}
+
+p:last-child {
+    color: black;
+    margin-top: 70px;
+}
+
+.pinl {
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 130px;
+}
+
+.pinl img {
+    float: left;
+}
+
+.pinl textarea {
+    margin-left: 10px;
+}
+
+.pinl input {
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 3px;
+    border: 0px;
+    background-color: rgba(18, 139, 238, 0.986);
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+}
